@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Andika New Basic", sans-serif; */
+}
+
+/*----------------mainNavBar----------------*/
+
+#mainNavbar {
+    overflow: hidden;
+    padding: 0rem 2rem;
+    box-shadow: 0rem 0.1rem 0.5rem 0.1rem #4b4848;
+    font-weight: 500px;
+    height: fit-content;
+    /*background-color: #181A18 ;*/
+    background-color: #001a66;
+    transition: 0.2s;
+}
+
+#mainNavbar .navbar-brand {
+    color: #F5F6FB;
+    font-family: "Play", sans-serif;
+    /*font-weight: 700;*/
+    font-size: 2.5rem;
+    margin: 3px 10px 5px 1px;
+    padding: 2px 3px 3px 1px;
+}
+
+
+#mainNavbar .nav-link {
+    font-family: 'Poppins', sans-serif;
+    color:  #F5F6FB;
+    /*font-weight: 600;*/
+    font-size: 1.1rem;
+    margin: 0rem 0rem 0rem 1rem;
+    padding: 8px 5px;
+}
+
+#mainNavbar #signin {
+    padding-left: 1rem;
+    border-left: 0.1rem solid #8b8d8f;
+}
+
+#mainNavbar .nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+#headingGrp span {
+    color: black;
+}
+
+#headingGrp h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.brand-name {
+    font-size: 30px;
+    font-weight: 100px;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+    transition: all .2s;
+    /* text-transform: lowercase; */
+}
+
+nav.stroke ul li a {
+    position: relative;
+}
+
+nav.stroke ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: rgb(255, 255, 255);
+    height: 0.07rem;
+}
+
+nav.stroke ul li a:hover:after {
+    width: 100%;
+}
+
+.navlogo {
+    width: 3rem;
+    height: 4rem;
+}
+
+
+/* Here is the code for Responsive header */
+
+@media (max-width: 1300px) {
+    #mainNavbar {
+        padding: 0rem 1rem;
+    }
+    #mainNavbar .nav-link {
+        font-family: "nunito", sans-serif;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 1rem;
+        margin: 0rem 0rem 0rem 1rem;
+        padding: 8px 5px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #mainNavbar .nav-link {
+        font-size: 1rem;
+        margin: 0rem 0rem 0rem 0.8rem;
+        padding: 0px 0px;
+    }
+}
+
+@media (max-width: 1100px) {
+    #mainNavbar .nav-link {
+        font-size: 0.99rem;
+        margin: 0rem 0rem 0rem 1.7rem;
+        padding: 0px 0px;
+    }
+    #mainNavbar .navbar-brand {
+        font-size: 2rem;
+    }
+    #mainNavbar #signin {
+        padding-left: 1.6rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    #mainNavbar {
+        padding: 0rem 1.8rem;
+    }
+    #mainNavbar .nav-link {
+        font-size: 0.9rem;
+        margin: 0rem 0rem 0rem 1.3rem;
+        padding: 0px 0px;
+    }
+    #mainNavbar .navbar-brand {
+        font-size: 1.5rem;
+    }
+    #mainNavbar #signin {
+        padding-left: 1rem;
+    }
+    .navlogo {
+        width: 2.5rem;
+        height: 3rem;
+    }
+}
+
+@media (max-width: 880px) {
+    #mainNavbar {
+        padding: 0rem 1rem;
+    }
+    #mainNavbar .nav-link {
+        font-size: 0.82rem;
+        margin: 0.5rem 0rem 0.5rem 1.3rem;
+        padding: 0px 0px;
+    }
+    #mainNavbar .navbar-brand {
+        font-size: 1.5rem;
+    }
+    #mainNavbar #signin {
+        padding-left: 1rem;
+    }
+    .navlogo {
+        width: 2.5rem;
+        height: 3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    #mainNavbar nav.stroke ul li a:after {
+        height: 0rem;
+    }
+    #mainNavbar .nav-link {
+        font-size: 0.9rem;
+    }
+    #mainNavbar #signin {
+        border-left: none;
+        padding: 0rem 1rem;
+        margin-left: 0.2rem;
+    }
+    #mainNavbar #signin:hover {
+        border-left: 0.1rem solid rgb(255, 255, 255);
+    }
+    #mainNavbar .nav-link {
+        padding: 0rem 1rem;
+        margin-left: 0.2rem;
+    }
+    #mainNavbar .nav-link:hover {
+        border-left: 0.1rem solid rgb(255, 255, 255);
+    }
+}
+
+
+/* ===========header ends here=========== */
