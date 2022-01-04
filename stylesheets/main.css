@@ -14,7 +14,8 @@ body {
 #mainNavbar {
     overflow: hidden;
     padding: 0rem 2rem;
-    box-shadow: 0rem 0.1rem 0.5rem 0.1rem #999494;
+    /*&box-shadow: 0rem 0.1rem 0.5rem 0.1rem #999494;*/
+    box-shadow: 0px +4px 5px 0px rgba(0,0,0,0.25);
     font-weight: 500px;
     height: fit-content;
     /*background-color: #181A18 ;*/
