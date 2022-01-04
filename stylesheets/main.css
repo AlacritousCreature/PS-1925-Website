@@ -14,11 +14,11 @@ body {
 #mainNavbar {
     overflow: hidden;
     padding: 0rem 2rem;
-    box-shadow: 0rem 0.1rem 0.5rem 0.1rem #4b4848;
+    box-shadow: 0rem 0.1rem 0.5rem 0.1rem #999494;
     font-weight: 500px;
     height: fit-content;
     /*background-color: #181A18 ;*/
-    background-color: #F5F6FB;
+    /*background-color: #F5F6FB;*/
     transition: 0.2s;
 }
 
@@ -41,13 +41,9 @@ body {
     padding: 8px 5px;
 }
 
-#mainNavbar #signin {
-    padding-left: 1rem;
-    border-left: 0.1rem solid #8b8d8f;
-}
 
 #mainNavbar .nav-link:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 #headingGrp span {
@@ -84,7 +80,7 @@ nav.stroke ul li a:after {
     width: 0%;
     content: '.';
     color: transparent;
-    background: rgb(255, 255, 255);
+    background: rgb(0,0,0);
     height: 0.07rem;
 }
 
@@ -95,6 +91,7 @@ nav.stroke ul li a:hover:after {
 .navlogo {
     width: 3rem;
     height: 4rem;
+    width:4rem;
 }
 
 
@@ -106,7 +103,7 @@ nav.stroke ul li a:hover:after {
     }
     #mainNavbar .nav-link {
         font-family: "nunito", sans-serif;
-        color: #ffffff;
+        color: #000;
         font-weight: 400;
         font-size: 1rem;
         margin: 0rem 0rem 0rem 1rem;
@@ -191,14 +188,14 @@ nav.stroke ul li a:hover:after {
         margin-left: 0.2rem;
     }
     #mainNavbar #signin:hover {
-        border-left: 0.1rem solid rgb(255, 255, 255);
+        border-left: 0.1rem solid  #000;
     }
     #mainNavbar .nav-link {
         padding: 0rem 1rem;
         margin-left: 0.2rem;
     }
     #mainNavbar .nav-link:hover {
-        border-left: 0.1rem solid rgb(255, 255, 255);
+        border-left: 0.1rem solid rgb(0,0,0);
     }
 }
 
