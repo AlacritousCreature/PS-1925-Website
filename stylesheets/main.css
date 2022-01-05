@@ -381,6 +381,7 @@ nav.stroke ul li a:hover:after {
     font-size: 1rem;
     margin-right: 1.3rem;
     color: rgb(24, 24, 24);
+    background-color: #99B951 !important;
 }
 
 /* --------------------------------------Testimonials-section---------------------------------------- */
