@@ -2,7 +2,7 @@
 
 .nounderline{
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .deneb_footer{
     box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.25);
@@ -11,8 +11,8 @@
 .deneb_footer .widget_wrapper {
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 200px;
-    padding-bottom: 70px;
+    padding-top: 180px;
+    padding-bottom: 5px;
 }
 @media (max-width: 767px) {
     .deneb_footer .widget_wrapper .widget {
