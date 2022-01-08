@@ -383,6 +383,28 @@ nav.stroke ul li a:hover:after {
     background-color: #99B951 !important;
 }
 
+/* -------------------------------------------Achievements-section--------------------------------------------- */
+
+.award-content {
+    margin-top: 2.6rem;
+}
+
+.per-award {
+    padding: 0 2rem 3rem;
+}
+
+.award-name {
+    padding: 0.5rem 0.5rem;
+}
+
+.award-name a {
+    color: #8d8d8a;
+}
+
+.award-name a:hover {
+    color: #99B951;
+}
+
 /* --------------------------------------Testimonials-section---------------------------------------- */
 
 #main-testimonial {
@@ -392,7 +414,7 @@ nav.stroke ul li a:hover:after {
     align-items: center;
     background: #f4f6ff;
     margin-bottom: 4.5rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
     padding-bottom: 2.3rem;
     padding-top: 0.8rem;
 }
