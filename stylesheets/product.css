@@ -1,79 +1,55 @@
+/* -------------------------------Product-section--------------------------------- */
 
-/* About Me 
----------------------*/
-@media (max-width: 991px) {
-  .about-text {
-    margin-top: 20px;
-  }
+#product-div {
+  background: #f5f5f5;
+  /* background-color: #f8f9ff; */
+  padding: 3rem 0 5rem;
 }
+
+.section_heading h3 {
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.section_heading p {
+  color: #50515e;
+  font-weight: 500 !important;
+}
+
+.p-content {
+  margin-top: 2rem;
+}
+
 .about-text h4 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  text-transform: uppercase;
   font-weight: 700;
-  margin: 0 0 10px;
+  margin: 0 0 0.5rem;
 }
-@media (max-width: 767px) {
-  .about-text h4 {
-    font-size: 1.5px;
-  }
-}
+
 .about-text h6 {
-  font-weight: 600;
-  margin-bottom: 15px;
+  color: #99B951;
+  font-weight: 500;
+  margin-bottom: 1rem;
 }
-@media (max-width: 767px) {
-  .about-text h6 {
-    font-size: 1.1rem;
-  }
-}
+
 .about-text p {
   font-size: 1rem;
 }
+
 .about-text p mark {
   font-weight: 600;
   color: #3a3973;
 }
+
 .about-text .btn-bar {
-  padding-top: 8px;
+  padding-top: 1rem;
 }
+
 .about-text .btn-bar a {
   min-width: 150px;
   text-align: center;
-  margin-right: 10px;
-}
-
-.about-list {
-  padding-top: 10px;
-}
-.about-list .media {
-  padding: 5px 0;
-}
-.about-list label {
-  color: #3a3973;
-  font-weight: 600;
-  width: 88px;
-  margin: 0;
-  position: relative;
-}
-.about-list label:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 11px;
-  width: 1px;
-  height: 12px;
-  background: #3a3973;
-  -moz-transform: rotate(15deg);
-  -o-transform: rotate(15deg);
-  -ms-transform: rotate(15deg);
-  -webkit-transform: rotate(15deg);
-  transform: rotate(15deg);
-  margin: auto;
-  opacity: 0.5;
-}
-.about-list p {
-  margin: 0;
-  font-size: 15px;
+  margin-right: 0.8rem;
 }
 
 .about-img {
@@ -81,65 +57,84 @@
   padding: 10px;
   background: #ffffff;
 }
-@media (max-width: 991px) {
-  .about-img {
-    margin-top: 30px;
-  }
+
+.about-img img {
+  width: 450px;
+  height: 350px;
 }
 
-.counter-section {
-  padding: 40px 20px;
-}
-.counter-section .count-data {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.counter-section .count {
-  font-weight: 700;
-  color: #ffffff;
-  margin: 0 0 10px;
-}
-.counter-section p {
-  font-weight: 500;
-  margin: 0;
-  color: #99B951;
-}
-.theme-color {
-    color: #99B951;
-}
-
-.section {
-    padding: 100px 0;
-    position: relative;
-}
-.gray-bg {
-    background-color: #ebf4fa;
-}
 .px-btn.theme {
-    background: #99B951;
-    color: #ffffff;
-    border: 2px solid #99B951;
+  background: #99B951;
+  color: #ffffff;
+  border: 2px solid #99B951;
 }
+
 .px-btn {
-    padding: 0 20px;
-    line-height: 42px;
-    border: 2px solid transparent;
-    position: relative;
-    display: inline-block;
-    background: none;
-    border: none;
-    -moz-transition: ease all 0.35s;
-    -o-transition: ease all 0.35s;
-    -webkit-transition: ease all 0.35s;
-    transition: ease all 0.35s;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: 500;
+  padding: 0 20px;
+  line-height: 42px;
+  border: 2px solid transparent;
+  position: relative;
+  display: inline-block;
+  background: none;
+  border: none;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
 }
 
 .px-btn.theme-t {
-    background: transparent;
-    border: 2px solid #99B951;
-    color: #99B951;
+  background: transparent;
+  border: 2px solid #99B951;
+  color: #99B951;
 }
 
+/* ---------------------------Responsive Product-section---------------------------- */
+
+@media (max-width: 1200px) {
+  .about-img img {
+    width: 370px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 991px) {
+  .p-content .row div .about-text {
+    /* background-color: #f4f4fc; */
+    box-shadow: 10px 15px 14px 0 rgba(0, 0, 0, 0.06);
+  }
+
+  .about-text {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .about-img {
+    background: transparent;
+    box-shadow: 10px 15px 14px 0 rgba(0, 0, 0, 0.06);
+    padding: 0rem;
+  }
+
+  .about-img img {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-text h4 {
+    font-size: 1.5rem;
+  }
+
+  .about-text h6 {
+    font-size: 1rem;
+  }
+
+  .about-text p {
+    text-align: justify;
+  }
+}

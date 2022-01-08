@@ -10,6 +10,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* -------------------------------------------Navbar-Section-------------------------------------------- */
+
 header {
     width: 100%;
     position: fixed;
@@ -20,7 +22,7 @@ header {
     font-family: 'Poppins', sans-serif;
 }
 
-.container {
+header.container {
     width: 100%;
     max-width: 140rem;
     margin: 0 auto;
@@ -51,7 +53,7 @@ header {
 
 #mainNavbar {
     overflow: hidden;
-    padding: 0rem 2rem;
+    padding: 0rem 0rem;
     /*&box-shadow: 0rem 0.1rem 0.5rem 0.1rem #999494;*/
     /* box-shadow: 0px +4px 5px 0px rgba(0, 0, 0, 0.25); */
     font-weight: 500px;
@@ -74,15 +76,9 @@ header {
     height: 4rem;
 }
 
-.nav-list {
-    list-style: none;
-    display: flex;
-    margin-right: auto;
-    margin-left: 4rem;
-}
-
 #navLinks {
-    margin-left: 8rem;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .nav-item {
@@ -395,8 +391,8 @@ nav.stroke ul li a:hover:after {
     justify-content: center;
     align-items: center;
     background: #f4f6ff;
-    margin-bottom: 3rem;
-    margin-top: 4rem;
+    margin-bottom: 4.5rem;
+    margin-top: 5rem;
     padding-bottom: 2.3rem;
     padding-top: 0.8rem;
 }
@@ -415,20 +411,20 @@ nav.stroke ul li a:hover:after {
     margin: 50px auto !important;
 }
 
-.carousel .carousel-item {
+#myCarousel .carousel-item {
     color: #999 !important;
     overflow: hidden !important;
     min-height: 120px !important;
     font-size: 13px !important;
 }
 
-.carousel .media {
+#myCarousel .media {
     position: relative !important;
     padding: 0 0 0 20px !important;
     margin-left: 20px !important;
 }
 
-.carousel .media img {
+#myCarousel .media img {
     width: 75px !important;
     height: 75px !important;
     display: block !important;
@@ -437,7 +433,7 @@ nav.stroke ul li a:hover:after {
     border: 2px solid #fff !important;
 }
 
-.carousel .testimonial {
+#myCarousel .testimonial {
     color: #fff !important;
     position: relative !important;
     background: #aecf63 !important;
@@ -445,7 +441,7 @@ nav.stroke ul li a:hover:after {
     margin: 0 0 20px 20px !important;
 }
 
-.carousel .testimonial::before, .carousel .testimonial::after {
+#myCarousel .testimonial::before, #myCarousel .testimonial::after {
     content: "" !important;
     display: inline-block !important;
     position: absolute !important;
@@ -453,14 +449,14 @@ nav.stroke ul li a:hover:after {
     bottom: -20px !important;
 }
 
-.carousel .testimonial::before {
+#myCarousel .testimonial::before {
     width: 20px !important;
     height: 20px !important;
     background: #99B951 !important;
     box-shadow: inset 12px 0 13px rgba(0, 0, 0, 0.5) !important;
 }
 
-.carousel .testimonial::after {
+#myCarousel .testimonial::after {
     width: 0 !important;
     height: 0 !important;
     border: 10px solid transparent !important;
@@ -468,21 +464,21 @@ nav.stroke ul li a:hover:after {
     border-left-color: #f4f6ff !important;
 }
 
-.carousel .carousel-item .row>div:first-child .testimonial {
+#myCarousel .carousel-item .row>div:first-child .testimonial {
     margin: 0 20px 20px 0 !important;
 }
 
-.carousel .carousel-item .row>div:first-child .media {
+#myCarousel .carousel-item .row>div:first-child .media {
     margin-left: 0 !important;
 }
 
-.carousel .testimonial p {
+#myCarousel .testimonial p {
     text-indent: 40px !important;
     line-height: 21px !important;
     margin: 0 !important;
 }
 
-.carousel .testimonial p::before {
+#myCarousel .testimonial p::before {
     content: "\201D" !important;
     font-family: Arial, sans-serif !important;
     color: #fff !important;
@@ -494,20 +490,20 @@ nav.stroke ul li a:hover:after {
     top: 0 !important;
 }
 
-.carousel .overview {
+#myCarousel .overview {
     padding: 3px 0 0 15px !important;
 }
 
-.carousel .overview .details {
+#myCarousel .overview .details {
     padding: 5px 0 8px !important;
 }
 
-.carousel .overview b {
+#myCarousel .overview b {
     text-transform: uppercase !important;
     color: #192954 !important;
 }
 
-.carousel-control-prev, .carousel-control-next {
+#t-prev, #t-next {
     width: 30px !important;
     height: 30px !important;
     background: #192954 !important;
@@ -515,24 +511,24 @@ nav.stroke ul li a:hover:after {
     top: 4px !important;
 }
 
-.carousel-control-prev i, .carousel-control-next i {
+#t-prev i, #t-next i {
     font-size: 16px !important;
 }
 
-.carousel-control-prev {
+#t-prev {
     left: auto !important;
     right: 40px !important;
 }
 
-.carousel-control-next {
+#t-next {
     left: auto !important;
 }
 
-.carousel-indicators {
+#t-indicators {
     bottom: -60px !important;
 }
 
-.carousel-indicators li, .carousel-indicators li.active {
+#t-indicators li, #t-indicators li.active {
     width: 17px !important;
     height: 17px !important;
     border-radius: 50% !important;
@@ -540,12 +536,12 @@ nav.stroke ul li a:hover:after {
     box-sizing: border-box !important;
 }
 
-.carousel-indicators li {
+#t-indicators li {
     background: #989ca8 !important;
     border: 4px solid #f4f6ff !important;
 }
 
-.carousel-indicators li.active {
+#t-indicators li.active {
     color: #f4f6ff !important;
     background: #192954 !important;
     border: 5px double !important;
