@@ -126,8 +126,8 @@ body {
   padding: 30px 90px 30px 30px;
   /*background: #99B951;*/
   background-image: -moz-linear-gradient(0deg, #b7d672 0%, #99B951 100%);
-    background-image: -webkit-linear-gradient(0deg, #b7d672 0%, #99B951 100%);
-    background-image: -ms-linear-gradient(0deg, #b7d672 0%, #99B951 100%);
+  background-image: -webkit-linear-gradient(0deg, #b7d672 0%, #99B951 100%);
+  background-image: -ms-linear-gradient(0deg, #b7d672 0%, #99B951 100%);
   position: relative;
   border-radius: 0 500px 500px 0;
 }
@@ -166,7 +166,15 @@ body {
     left: 0%;
   }
 
-  .container.left::after, 
+  .cont.right::after {
+    left: 83px;
+  }
+
+  .cont.left::after {
+    left: 83px;
+  }
+
+  .container.left::after,
   .container.right::after {
     left: 82px;
   }
