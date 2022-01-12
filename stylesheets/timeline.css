@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-}
-
 .timeline {
   position: relative;
   width: 100%;
@@ -28,7 +24,7 @@ body {
 }
 
 .cont {
-  padding: 15px 30px;
+  padding: 2px 30px;
   position: relative;
   background: inherit;
   width: 50%;
@@ -123,7 +119,7 @@ body {
 }
 
 .cont .content {
-  padding: 30px 90px 30px 30px;
+  padding: 30px 90px 20px 30px;
   /*background: #99B951;*/
   background-image: -moz-linear-gradient(0deg, #b7d672 0%, #99B951 100%);
   background-image: -webkit-linear-gradient(0deg, #b7d672 0%, #99B951 100%);
@@ -133,7 +129,7 @@ body {
 }
 
 .cont.right .content {
-  padding: 30px 30px 30px 90px;
+  padding: 30px 30px 20px 90px;
   border-radius: 500px 0 0 500px;
 }
 
@@ -146,7 +142,7 @@ body {
 
 .cont .content p {
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   color: #000000;
 }
@@ -199,7 +195,7 @@ body {
 
   .cont.left .content,
   .cont.right .content {
-    padding: 30px 30px 30px 90px;
+    padding: 30px 30px 20px 90px;
     border-radius: 500px 0 0 500px;
   }
 }
