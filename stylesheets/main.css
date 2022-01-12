@@ -176,7 +176,9 @@ header {
 
 .scrolling-active #nav-cta {
     background-color: #99B951;
+    /* background-color: #A45EE5; */
     color: #fff;
+    /* color: #313131; */
 }
 
 .scrolling-active #nav-cta:hover {
@@ -387,8 +389,8 @@ header {
     justify-content: center;
     align-items: center;
     background: #f4f6ff;
-    margin-bottom: 4.5rem;
-    margin-top: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
     padding-bottom: 2.3rem;
     padding-top: 0.8rem;
 }
@@ -431,8 +433,10 @@ header {
 
 #myCarousel .testimonial {
     color: #fff !important;
+    /* color: #222020 !important; */
     position: relative !important;
     background: #aecf63 !important;
+    /* background-color: #A45EE5 !important; */
     padding: 15px !important;
     margin: 0 0 20px 20px !important;
 }
@@ -449,6 +453,7 @@ header {
     width: 20px !important;
     height: 20px !important;
     background: #99B951 !important;
+    /* background: #A45EE5 !important; */
     box-shadow: inset 12px 0 13px rgba(0, 0, 0, 0.5) !important;
 }
 
