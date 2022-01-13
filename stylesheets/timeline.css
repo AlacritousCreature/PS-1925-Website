@@ -9,7 +9,7 @@
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
-  padding: 15px 0;
+  padding: 25px 0;
 }
 
 .timeline::after {
@@ -155,7 +155,7 @@
   .cont {
     width: 100%;
     padding-left: 120px;
-    padding-right: 30px;
+    padding-right: 10px;
   }
 
   .cont.right {
@@ -197,5 +197,55 @@
   .cont.right .content {
     padding: 30px 30px 20px 90px;
     border-radius: 500px 0 0 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .timeline::after {
+    left: 45px;
+  }
+
+  .cont {
+    padding-left: 60px;
+  }
+
+  .cont.left .content, .cont.right .content {
+    padding: 10px 0px 10px 60px;
+    border-radius: 50px 0 0 50px;
+  }
+
+  .cont .content h2 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .cont .content p {
+    font-size: 13px;
+  }
+
+  .cont .content li {
+    list-style: none;
+  }
+
+  .cont.left .icon, .cont.right .icon {
+    left: 70px;
+  }
+
+  .cont.left .date, .cont.right .date {
+    font-size: 12px;
+    right: auto;
+    left: 5px;
+  }
+
+  .cont.left::before, .cont.right::before {
+    left: 37px;
+  }
+
+  .cont.right::after {
+    left: 37px;
+  }
+
+  .cont.left::after {
+    left: 37px;
   }
 }
