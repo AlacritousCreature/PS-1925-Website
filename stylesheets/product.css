@@ -94,14 +94,14 @@
 
 /* ---------------------------Responsive Product-section---------------------------- */
 
-@media (max-width: 1200px) {
+@media (max-width: 1199.5px) {
   .about-img img {
     width: 370px;
     height: 350px;
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991.5px) {
   .p-content .row div .about-text {
     background-color: #fff;
     box-shadow: 10px 15px 14px 0 rgba(0, 0, 0, 0.06);

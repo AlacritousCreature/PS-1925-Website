@@ -163,6 +163,12 @@ header {
     }
 }
 
+@media (max-width: 310px) {
+    #mainNavbar {
+        padding: 0.2rem 0.3rem;
+    }
+}
+
 
 /*Apply styles after scroll*/
 .scrolling-active {
@@ -281,6 +287,39 @@ header {
     }
 }
 
+/* -----------------------------------------Collage-Section-------------------------------------------- */
+
+#collage img {
+    width: 100%;
+}
+
+@media (max-width: 991.5px) {
+    #collage div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #collage img {
+        width: 320px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 767.5px) {
+    #collage div {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 360px) {
+    #collage img {
+        width: 96%;
+        height: 200px;
+    }
+}
+
 /* -------------------------------------------Achievements-section--------------------------------------------- */
 
 .award-content {
@@ -323,13 +362,13 @@ header {
 .owl-prev {
     position: relative !important;
     bottom: 10rem !important;
-    right: 32rem !important;
+    right: 34rem !important;
 }
 
 .owl-next {
     position: relative !important;
     bottom: 10rem !important;
-    left: 32rem !important;
+    left: 34rem !important;
 }
 
 .owl-prev span, .owl-next span {
@@ -341,27 +380,27 @@ header {
     margin-top: 1rem !important;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199.5px) {
     .owl-prev {
-        right: 27rem !important;
+        right: 28rem !important;
     }
 
     .owl-next {
-        left: 27rem !important;
+        left: 28rem !important;
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991.5px) {
     .owl-prev {
-        right: 20rem !important;
+        right: 20.5rem !important;
     }
 
     .owl-next {
-        left: 20rem !important;
+        left: 20.5rem !important;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.5px) {
     .owl-prev {
         right: 15rem !important;
     }
@@ -371,13 +410,31 @@ header {
     }
 }
 
-@media (max-width: 592px) {
+@media (max-width: 591.5px) {
     .owl-prev {
         right: 7rem !important;
     }
 
     .owl-next {
         left: 7rem !important;
+    }
+
+    .award-name a {
+        font-size: 14px;
+    }
+
+    .owl-prev span, .owl-next span {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media (max-width: 310px) {
+    .owl-prev {
+        right: 3.5rem !important;
+    }
+
+    .owl-next {
+        left: 3.5rem !important;
     }
 }
 
@@ -397,7 +454,7 @@ header {
 
 #myCarousel h2 {
     color: #070a57;
-    font-size: 2.4rem;
+    font-size: 2.1rem;
     font-weight: 300;
     position: relative;
     margin: 0 0 50px 0;
