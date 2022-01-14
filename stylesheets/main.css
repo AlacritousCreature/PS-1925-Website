@@ -67,8 +67,8 @@ header {
 }
 
 .navlogo {
-    width: 4rem;
-    height: 4rem;
+    width: 5.5rem;
+    height: 4.5rem;
 }
 
 #navLinks {
@@ -173,7 +173,7 @@ header {
 /*Apply styles after scroll*/
 .scrolling-active {
     background-color: #fff;
-    box-shadow: 0 0.3rem 1rem rgba(3, 3, 3, 0.342);
+    box-shadow: 0 0.1rem 1rem rgba(3, 3, 3, 0.342);
 }
 
 .scrolling-active .nav a {
@@ -198,7 +198,7 @@ header {
 /* -----------------------------------Hero-Section--------------------------------------- */
 
 #hero {
-    background-image: linear-gradient(rgba(100, 166, 232, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/d5.jpg");
+    background-image: linear-gradient(rgba(100, 166, 232, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/d6.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
