@@ -9,6 +9,11 @@
     text-transform: uppercase
 }
 
+.boldabout{
+    font-weight: bold;
+    color: #070a57;
+}
+
 .aboutimg {
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
