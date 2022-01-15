@@ -121,9 +121,12 @@
 .cont .content {
   padding: 30px 90px 20px 30px;
   /*background: #99B951;*/
-  background-image: -moz-linear-gradient(0deg, #b7d672 0%, #99B951 100%);
+  /* background-image: -moz-linear-gradient(0deg, #b7d672 0%, #99B951 100%);
   background-image: -webkit-linear-gradient(0deg, #b7d672 0%, #99B951 100%);
-  background-image: -ms-linear-gradient(0deg, #b7d672 0%, #99B951 100%);
+  background-image: -ms-linear-gradient(0deg, #b7d672 0%, #99B951 100%); */
+  background: #FDC830;
+  background: -webkit-linear-gradient(to right, #F37335, #FDC830);
+  background: linear-gradient(to right, #F37335, #FDC830);
   position: relative;
   border-radius: 0 500px 500px 0;
 }
