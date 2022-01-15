@@ -31,12 +31,12 @@ header {
 }
 
 .custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(87, 87, 87, 0.925)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(2, 13, 78, 0.925)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .custom-toggler.navbar-toggler {
-    border-color: rgb(156, 156, 156);
-    /* border-color: rgba(87, 87, 87, 0.925); */
+    border-color: rgb(36, 55, 105);
+    /* border-color: rgba(2, 13, 78, 0.925); */
 
 }
 
@@ -106,8 +106,15 @@ header {
 
 #nav-cta {
     display: inline-block;
-    background-color: #99B951;
-    color: #313131;
+    /* background: #FF5630;
+    background: -webkit-linear-gradient(to bottom right, #FF8B00, #FF5630);
+    background: linear-gradient(to bottom right, #FF8B00, #FF5630); */
+    background: #FDC830;
+    background: -webkit-linear-gradient(to bottom right, #F37335, #FDC830);
+    background: linear-gradient(to bottom right, #F37335, #FDC830);
+
+    /* color: #313131; */
+    color: white;
     margin-left: 0.8rem;
     padding: 0.8rem 2rem;
     border-radius: 7rem;
@@ -117,7 +124,8 @@ header {
 }
 
 #nav-cta:hover {
-    background-color: #b6c3ff;
+    /* background-color: #b6c3ff; */
+    box-shadow: 2px 2px 10px #616161;
 }
 
 @media (max-width: 1331px) {
@@ -198,7 +206,7 @@ header {
 /* -----------------------------------Hero-Section--------------------------------------- */
 
 #hero {
-    background-image: linear-gradient(rgba(100, 166, 232, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/d6.jpg");
+    background-image: linear-gradient(rgba(100, 166, 232, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/e3.png");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -226,9 +234,30 @@ header {
 #hero a {
     font-size: 1rem;
     margin-right: 1.3rem;
-    color: rgb(24, 24, 24);
-    background-color: #99B951 !important;
+    /* color: rgb(24, 24, 24); */
+    color: white;
+    /* background: #FF5630;
+    background: -webkit-linear-gradient(to bottom right, #FF8B00, #FF5630);
+    background: linear-gradient(to bottom right, #FF8B00, #FF5630); */
+    background: #FDC830;
+    background: -webkit-linear-gradient(to bottom right, #F37335, #FDC830);
+    background: linear-gradient(to bottom right, #F37335, #FDC830);
+    margin-bottom: 0.5rem;
 }
+
+#hero a:hover {
+    box-shadow: 0px 1px 10px #888888;
+}
+
+/* #hero-bg {
+    padding-bottom: 17rem;
+    padding-left: 6rem;
+}
+
+#hero img {
+    height: 150px;
+    width: 300px;
+} */
 
 @media (max-width: 1271px) {
     #hero {
@@ -266,6 +295,7 @@ header {
 @media (max-width: 469px) {
     #hero {
         padding-left: 20px;
+        background-image: linear-gradient(rgba(100, 166, 232, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/e5.png");
     }
 
     #hero div {
@@ -345,7 +375,9 @@ header {
 }
 
 .award-name a:hover {
-    color: #99B951;
+    /* color: #99B951; */
+    color: #fc864c;
+    text-decoration: none;
 }
 
 .owl-nav {
@@ -492,8 +524,10 @@ header {
     color: #fff !important;
     /* color: #222020 !important; */
     position: relative !important;
-    background: #aecf63 !important;
-    /* background-color: #A45EE5 !important; */
+    /* background: #aecf63 !important; */
+    background: #FDC830;
+    background: -webkit-linear-gradient(to bottom right, #F37335, #FDC830);
+    background: linear-gradient(to bottom right, #F37335, #FDC830);
     padding: 15px !important;
     margin: 0 0 20px 20px !important;
 }
@@ -509,8 +543,10 @@ header {
 #myCarousel .testimonial::before {
     width: 20px !important;
     height: 20px !important;
-    background: #99B951 !important;
-    /* background: #A45EE5 !important; */
+    /* background: #99B951 !important; */
+    background: #FDC830;
+    background: -webkit-linear-gradient(to bottom right, #F37335, #FDC830);
+    background: linear-gradient(to bottom right, #F37335, #FDC830);
     box-shadow: inset 12px 0 13px rgba(0, 0, 0, 0.5) !important;
 }
 
