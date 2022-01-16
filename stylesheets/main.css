@@ -514,6 +514,7 @@ header {
 #myCarousel .media img {
     width: 75px !important;
     height: 75px !important;
+    object-fit: cover;
     display: block !important;
     border-radius: 50% !important;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
@@ -595,6 +596,11 @@ header {
 #myCarousel .overview b {
     text-transform: uppercase !important;
     color: #192954 !important;
+}
+
+#myCarousel .overview a {
+    /* text-decoration: none; */
+    color: #192954;
 }
 
 #t-prev, #t-next {
