@@ -24,7 +24,7 @@ header {
 
 #mainNavbar {
     overflow: hidden;
-    padding: 0rem 8rem;
+    padding: 0rem 7rem;
     font-weight: 500px;
     height: fit-content;
     transition: 0.2s;
@@ -67,8 +67,8 @@ header {
 }
 
 .navlogo {
-    width: 5.5rem;
-    height: 4.5rem;
+    width: 5rem;
+    height: 4rem;
 }
 
 #navLinks {
