@@ -229,6 +229,7 @@ header {
 
 #hero p {
     margin-bottom: 2rem;
+    font-size: 1.5rem !important;
 }
 
 #hero a {
@@ -290,6 +291,10 @@ header {
     #hero div {
         width: 80%;
     }
+
+    #hero p {
+        font-size: 1rem !important;
+    }
 }
 
 @media (max-width: 469px) {
@@ -307,7 +312,7 @@ header {
     }
 
     #hero p {
-        font-size: 0.8rem;
+        font-size: 0.8rem !important;
     }
 
     #hero a {
