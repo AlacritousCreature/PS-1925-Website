@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bad Script');
 
 *,
 html,
@@ -300,7 +301,7 @@ header {
 @media (max-width: 469px) {
     #hero {
         padding-left: 20px;
-        background-image: linear-gradient(rgba(100, 166, 232, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/e5.png");
+        background-image: linear-gradient(rgba(100, 166, 232, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/e6.png");
     }
 
     #hero div {
@@ -659,4 +660,74 @@ header {
 .star-rating i {
     font-size: 14px;
     color: #ffdc12;
+}
+
+@media (max-width: 575.5px) {
+    #myCarousel .testimonial {
+        margin: 0 0 20px 0 !important;
+    }
+
+    #myCarousel .carousel-item .row>div:first-child .testimonial {
+        margin: 0 0 20px 0 !important;
+    }
+
+    #myCarousel .media img {
+        width: 55px !important;
+        height: 55px !important;
+    }
+
+    #myCarousel .overview {
+        padding: 3px 0 0 0px !important;
+    }
+
+    #myCarousel .media {
+        margin-left: 0 !important;
+    }
+}
+
+/* -----------------------------------------Blockquote at the end-above Footer--------------------------------------------------- */
+
+.quote-block {
+    margin: 4rem 0rem 5rem !important;
+}
+
+#quotation p {
+    padding: 0 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Bad Script';
+}
+
+#quotation p span {
+    font-size: 2.3rem;
+    font-weight: bolder;
+    font-family: 'Bad Script';
+}
+
+@media (max-width: 1000px) {
+    #quotation p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 830px) {
+    .quote-block {
+        margin: 2rem 0rem 4rem !important;
+    }
+
+    #quotation p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 628px) {
+    #quotation p {
+        font-size: 1.1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    #quotation p span {
+        font-size: 1.5rem;
+    }
 }
