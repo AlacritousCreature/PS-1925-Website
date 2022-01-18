@@ -13,7 +13,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 180px;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
 }
 
 @media (max-width: 767px) {
@@ -23,7 +23,7 @@
 }
 
 .deneb_footer .widget_wrapper .widget .widget_title {
-    margin-bottom: 30px;
+    margin-bottom: 28px;
 }
 
 .deneb_footer .widget_wrapper .widget .widget_title h3 {
@@ -89,10 +89,10 @@
 }
 
 .deneb_footer .widget_wrapper .widget_contact .contact_info .single_info {
-    max-width: 250px;
+    max-width: 300px;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .deneb_footer .widget_wrapper .widget_contact .contact_info .single_info .icon {
