@@ -1,5 +1,3 @@
-/*body{margin-top:20px;}*/
-
 .nounderline {
     text-decoration: none;
     font-size: 1.1rem;
@@ -33,7 +31,7 @@
 .deneb_footer .widget_wrapper .widget .widget_title h4:after {
     content: "";
     display: block;
-    background: url(../images/shape/line.png) no-repeat;
+    /* background: url(../images/shape/line.png) no-repeat; */
     max-width: 38px;
     height: 2px;
     margin-top: 5px;
@@ -131,19 +129,16 @@
     max-width: 970px;
     border-radius: 15px;
     margin: auto;
-    margin-bottom: -135px;
+    margin-bottom: -100px;
     position: relative;
     background: #FDC830;
     background: -webkit-linear-gradient(to bottom right, #F37335, #FDC830);
     background: linear-gradient(to bottom right, #F37335, #FDC830);
-    /* background-image: -moz-linear-gradient(0deg, #aecf63 0%, #99B951 100%);
-    background-image: -webkit-linear-gradient(0deg, #aecf63 0%, #99B951 100%);
-    background-image: -ms-linear-gradient(0deg, #aecf63 0%, #99B951 100%); */
     /* box-shadow: 2.5px 4.33px 15px 0px rgba(254, 176, 0, 0.4); */
     z-index: 1;
 }
 
-.deneb_cta .cta_wrapper:after {
+/* .deneb_cta .cta_wrapper:after {
     content: "";
     background: url(../images/shape/cta_shape.png) no-repeat;
     background-position: bottom;
@@ -153,7 +148,7 @@
     bottom: 0;
     left: 0;
     z-index: -1;
-}
+} */
 
 .deneb_cta .cta_wrapper .cta_content h3 {
     color: #fff;
@@ -169,7 +164,7 @@
 .deneb_cta .cta_wrapper .cta_content h3:after {
     content: "";
     display: block;
-    background: url(../images/shape/line_2.png) no-repeat;
+    /* background: url(../images/shape/line_2.png) no-repeat; */
     max-width: 110px;
     height: 2px;
     margin-top: 13px;
@@ -195,11 +190,17 @@
     color: #fff;
 }
 
+@media (max-width: 991.5px) {
+    .deneb_cta .cta_wrapper {
+        margin-bottom: -90px;
+        padding: 10px 40px 32px;
+    }    
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .deneb_cta .cta_wrapper .button_box {
         float: none;
         text-align: left;
-        margin-top: 30px;
     }
 }
 
@@ -207,8 +208,13 @@
     .deneb_cta .cta_wrapper .button_box {
         float: none;
         text-align: center;
-        margin-top: 30px;
     }
+}
+
+@media (max-width: 476.5px) {
+    .deneb_cta .cta_wrapper {
+        margin-bottom: -105px;
+    }    
 }
 
 .deneb_cta .cta_wrapper .button_box .deneb_btn {
