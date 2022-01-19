@@ -719,7 +719,7 @@ header {
 }
 
 #quotation p span {
-    font-size: 2.3rem;
+    /* font-size: 1.8rem; */
     /* font-weight: bolder; */
     font-family: 'Courgette', cursive;
 }
@@ -747,7 +747,7 @@ header {
         padding-left: 1rem;
     }
 
-    #quotation p span {
+    /* #quotation p span {
         font-size: 1.5rem;
-    }
+    } */
 }
