@@ -391,13 +391,18 @@ header {
     justify-content: center !important;
 }
 
+.award-img img {
+    object-fit: contain;
+}
+
 .award-name {
-    padding: 0.5rem 0rem;
+    /* padding: 0.5rem 0rem; */
     text-align: center;
 }
 
 .award-name a {
     color: #8d8d8a;
+    font-size: 0.9rem;
 }
 
 .award-name a:hover {
@@ -482,7 +487,11 @@ header {
     }
 
     .owl-prev span, .owl-next span {
-        font-size: 1.5rem !important;
+        font-size: 2rem !important;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        margin: 2px 3px !important;
     }
 }
 
