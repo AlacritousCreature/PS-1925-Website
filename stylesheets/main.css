@@ -319,11 +319,13 @@ header {
 @media (max-width: 469px) {
     #hero {
         padding-left: 20px;
+        height: 85vh;
         background-image: linear-gradient(rgba(100, 166, 232, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/e6.png");
     }
 
     #hero div {
         width: 100%;
+        margin-top: 8rem;
     }
 
     #hero h1 {
@@ -610,7 +612,7 @@ header {
 }
 
 #myCarousel .overview {
-    padding: 3px 0 0 15px !important;
+    padding: 3px 20px 0 0px !important;
 }
 
 #myCarousel .overview .details {
@@ -711,7 +713,7 @@ header {
 }
 
 #quotation p {
-    padding: 0 1rem;
+    padding: 0 20rem;
     /* font-weight: bold; */
     font-size: 1.6rem;
     /* font-family: 'Bad Script'; */
@@ -724,9 +726,40 @@ header {
     font-family: 'Courgette', cursive;
 }
 
+@media (max-width: 1371.5px) {
+    #quotation p {
+        padding: 0 15rem;
+    }
+}
+
+@media (max-width: 1211.5px) {
+    #quotation p {
+        padding: 0 12rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    #quotation p {
+        padding: 0 10rem;
+    }
+}
+
+@media (max-width: 1051.5px) {
+    #quotation p {
+        padding: 0 3rem;
+    }
+}
+
 @media (max-width: 1000px) {
     #quotation p {
         font-size: 1.3rem;
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 924.5px) {
+    #quotation p {
+        padding: 0 4rem;
     }
 }
 
@@ -737,6 +770,13 @@ header {
 
     #quotation p {
         font-size: 1.2rem;
+        padding: 0 3rem;
+    }
+}
+
+@media (max-width: 644.5px) {
+    #quotation p {
+        padding: 0 1rem;
     }
 }
 
@@ -747,7 +787,71 @@ header {
         padding-left: 1rem;
     }
 
+    #quotation p {
+        padding: 0 0.5rem;
+    }
+
     /* #quotation p span {
         font-size: 1.5rem;
     } */
+}
+
+@media (max-width: 519.5px) {
+    #quotation p {
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 440.5px) {
+    #quotation p {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 408.5px) {
+    #quotation p {
+        padding: 0 0.5rem;
+    }
+}
+
+@media (max-width: 392.5px) {
+    #quotation p {
+        padding: 0 0.2rem;
+    }
+}
+
+@media (max-width: 382.5px) {
+    #quotation p {
+        padding: 0 0rem;
+    }
+}
+
+@media (max-width: 376.5px) {
+    #quotation p {
+        padding: 0 2.4rem;
+    }
+}
+
+@media (max-width: 355.5px) {
+    #quotation p {
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 323.5px) {
+    #quotation p {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 291.5px) {
+    #quotation p {
+        padding: 0 0rem;
+    }
+}
+
+@media (max-width: 259.5px) {
+    #quotation p {
+        padding: 0 1rem;
+    }
 }
