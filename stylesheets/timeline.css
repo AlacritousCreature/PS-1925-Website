@@ -16,7 +16,8 @@
   content: '';
   position: absolute;
   width: 2px;
-  background: #070a57;;
+  background: #070a57;
+  ;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -212,7 +213,7 @@
   }
 
   .cont.left .content, .cont.right .content {
-    padding: 10px 0px 10px 60px;
+    padding: 10px 0px 10px 73px;
     border-radius: 50px 0 0 50px;
   }
 
@@ -225,9 +226,9 @@
     font-size: 13px;
   }
 
-  .cont .content li {
+  /* .cont .content li {
     list-style: none;
-  }
+  } */
 
   .cont.left .icon, .cont.right .icon {
     left: 70px;
