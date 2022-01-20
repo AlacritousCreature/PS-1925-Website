@@ -143,3 +143,9 @@
     text-align: justify;
   }
 }
+
+@media (max-width: 335px) {
+  .services-section .section-title h3 {
+    font-size: 22px;
+  }
+}
