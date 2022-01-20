@@ -149,3 +149,34 @@
     font-size: 22px;
   }
 }
+
+/* ----------------------------------------Brochure Download Button------------------------------------------- */
+
+#brochure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#brochure a {
+  font-size: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.7rem 1rem;
+  background: #FDC830;
+  background: -webkit-linear-gradient(to bottom right, #F37335, #FDC830);
+  background: linear-gradient(to bottom right, #F37335, #FDC830);
+  border-radius: 8px;
+}
+
+#brochure a:hover {
+  box-shadow: 0px 0px 15px 0px rgb(123, 132, 153);
+  transition: 0.2s;
+}
+
+@media (max-width: 500px) {
+  #brochure a {
+    font-size: 0.9rem;
+  }
+}
